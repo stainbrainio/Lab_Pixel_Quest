@@ -25,14 +25,6 @@ public class moving1 : MonoBehaviour
 
         
 
-
-
-
-
-
-        
-
-
         /*
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -51,4 +43,25 @@ public class moving1 : MonoBehaviour
             transform.position += new Vector3(1, 0, 0);
         }*/
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

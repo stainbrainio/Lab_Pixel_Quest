@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Talk1 : MonoBehaviour
 {
+    public string nextLevel = "Scene_2";
     // Start is called before the first frame update
     void Start()
     {
@@ -12,7 +13,7 @@ public class Talk1 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Hit"); Debug.Log(collision.tag);
+        
         switch (collision.tag)
         {
             case "Win":
@@ -22,10 +23,13 @@ public class Talk1 : MonoBehaviour
             case "Death": 
                 {
                     string thisLevel = SceneManager.GetActiveScene().name;
-                    SceneManager.LoadScene(thisLevel);
+                    SceneManager.LoadScene(thisLevel); 
                     break;
-                
-                
+                }
+            case "Finish":
+                {
+                    SceneManager.LoadScene(nextLevel);
+                    break;
                 }
         
         }
