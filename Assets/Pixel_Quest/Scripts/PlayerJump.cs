@@ -51,11 +51,11 @@ public class playerJump : MonoBehaviour
         }
         
     }
-    private void OnTriggerEnter(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(_watertag)) { _waterCheck = true; }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag(_watertag)) { _waterCheck = false; }
     }
