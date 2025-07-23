@@ -8,7 +8,7 @@ public class playerJump : MonoBehaviour
 {
     Rigidbody2D _rigidbody2D;
 
-    public float Jumpforce = 5f;
+    public float Jumpforce = 20f;
 
     // Capsule
 
