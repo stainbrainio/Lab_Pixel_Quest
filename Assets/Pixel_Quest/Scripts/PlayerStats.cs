@@ -9,7 +9,19 @@ public class playerStats : MonoBehaviour
     public int coinCount = 0;
     public int Health = 3;
     public Transform RespawnPoint;
+    public int _maxHealth = 3;
+    public PlayerUIController _playerUIController;
     // Start is called before the first frame update
+
+    private void Start()
+    {
+        _playerUIController = GetComponent<PlayerUIController>();
+        _playerUIController.UpdateHealth(Health,_maxHealth);
+    }
+
+
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         switch (other.tag) 
@@ -28,25 +40,13 @@ public class playerStats : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             case "Health":
                 {
                     if (Health <= 3)
                     {
                         Destroy(other.gameObject);
                         Health++;
+                        _playerUIController.UpdateHealth(Health, _maxHealth);
                     }
                     break;
                 }
@@ -54,6 +54,7 @@ public class playerStats : MonoBehaviour
             case "Death":
             {
                     Health--;
+                    _playerUIController.UpdateHealth(Health, _maxHealth);
                     if (Health <= 0)
                     {
                         string thislevel = SceneManager.GetActiveScene().name;
