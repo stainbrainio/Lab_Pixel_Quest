@@ -42,7 +42,6 @@ public class playerJump : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && _groundCheck)
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, Jumpforce);
-                
         }
 
         if (_rigidbody2D.velocity.y < 0)
