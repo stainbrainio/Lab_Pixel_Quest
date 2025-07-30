@@ -18,8 +18,6 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-
-
         float xInput = Input.GetAxis("Horizontal");
         if (xInput > 0) { sr1.flipX = true; }
         else if (xInput < 0) { sr1.flipX= false; }
