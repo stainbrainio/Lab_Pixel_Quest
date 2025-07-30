@@ -11072,6 +11072,10 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4719771137075464283, guid: 300a4f74aa25ee34da3a042f7e8135ac, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 5215334518300920539, guid: 300a4f74aa25ee34da3a042f7e8135ac, type: 3}
