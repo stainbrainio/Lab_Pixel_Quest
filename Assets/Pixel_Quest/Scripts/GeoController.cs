@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GeoController : MonoBehaviour
+public class GeoController5 : MonoBehaviour
 {
     private SpriteRenderer sprite;
     private Rigidbody2D rb;

@@ -53,7 +53,7 @@ public class stat : MonoBehaviour
                 }
             case "Finish":
                 {
-                    string nextLevel = collision.GetComponent<LevelGoal>().nextLevel;
+                    string nextLevel = collision.GetComponent<LevelGoal>().Nextlevel;
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }
