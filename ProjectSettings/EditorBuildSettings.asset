@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Geo_Quest/Scenes/Scene_2.unity
     guid: 7ec28a2dd8571cc45b9c956a40b95ffa
   - enabled: 0
-    path: Assets/Pixel_Quest/Scenes/Pixel_Quest_TestLevel.unity
+    path: Assets/Pixel_Quest/Scenes/startscene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
