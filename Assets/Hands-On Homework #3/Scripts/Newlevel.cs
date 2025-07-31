@@ -11,7 +11,7 @@ public class Newlevel : MonoBehaviour
         {
             case "Finish":
                 {
-                    string nextLevel = "Scene_2HW3";
+                    string nextLevel = "Hw3_S2";
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }
