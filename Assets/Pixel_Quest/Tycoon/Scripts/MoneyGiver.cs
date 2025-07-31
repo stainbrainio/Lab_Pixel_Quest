@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class button : MonoBehaviour
+public class MoneyGiver : MonoBehaviour
 {
     public int money;
     public int amount;
@@ -20,6 +20,14 @@ public class button : MonoBehaviour
         }
 
     }
+
+    public int Givemoney()
+    {
+        int givemoney = money;
+        money = 0;
+        return givemoney;
+    }
+
     private void UpdateMoneyText()
     {
         if (moneyText != null)
