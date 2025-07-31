@@ -1,118 +1,78 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class playerStats : MonoBehaviour
+public class PlayerStats : MonoBehaviour
 {
-    //public string nextLevel = "GeoLevel_2";
-    public int coinCount = 0;
+    private int coinsInLevel = 0;
+    public Transform respawnPoint;
     public int Health = 3;
-    public Transform RespawnPoint;
-    public int _maxHealth = 3;
-    public PlayerUIController _playerUIController;
-    public int CoinsInLevel = 0;
-    // Start is called before the first frame update
+    public int coinCount = 0;
+    public int maxHealth = 3;
+    private PlayerUIController playerUIController;
 
     private void Start()
     {
-        _playerUIController = GetComponent<PlayerUIController>();
-        _playerUIController.UpdateHealth(Health,_maxHealth);
-        _playerUIController.StartUI();
-        CoinsInLevel = GameObject.Find("Coin").transform.childCount;
-        _playerUIController.UpdateText(coinCount + "/" + CoinsInLevel);
-    }
-
-
-
-
-    private void OnTriggerEnter2D(Collider2D other)
+         playerUIController = GetComponent<PlayerUIController>();
+        playerUIController.StartUI();
+        coinsInLevel = GameObject.Find("Coins").transform.childCount;
+        playerUIController.UpdateCoin(coinCount + "/" + coinsInLevel);
+        playerUIController.UpdateHealth(Health, maxHealth);
+        }
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        switch (other.tag) 
+        switch (collision.tag)
         {
-
-
-            case "Coin":
-                {
-                    coinCount++;
-                    _playerUIController.UpdateText(coinCount + "/" + CoinsInLevel);
-                    Destroy(other.gameObject);
-                    break;
-                }
-
-
-
-
-
-
-
             case "Respawn":
-
                 {
-                    RespawnPoint.position = other.transform.Find("Point").position;
-                    break;
-
-
-
-                }
-
-
-
-
-            case "Health":
-                {
-                    if (Health <= 3)
-                    {
-                        Destroy(other.gameObject);
-                        Health++;
-                        _playerUIController.UpdateHealth(Health, _maxHealth);
-                    }
+                    respawnPoint.position = collision .transform.Find ("Point").position;
                     break;
                 }
-
             case "Death":
-            {
-                    Health--;
-                    _playerUIController.UpdateHealth(Health, _maxHealth);
+                { 
+
+                    
                     if (Health <= 0)
                     {
-                        string thislevel = SceneManager.GetActiveScene().name;
-                        SceneManager.LoadScene(thislevel); 
+                        string ThisLevel = SceneManager.GetActiveScene().name;
+                        SceneManager.LoadScene(ThisLevel);
+                        playerUIController.UpdateHealth(Health, maxHealth);
+                            }
+
+                    else
+                    {
+                        transform.position = respawnPoint.position;
                     }
-
-                        else
-                        {
-                            transform.position = RespawnPoint.position;
-
-
-                        }
-
-
-                   
+                        break;
                     
-                
-                    break;
-            }
+                }
 
             case "Finish":
                 {
-                    string Nextlevel = other.GetComponent<LevelGoal>().Nextlevel;
-                  SceneManager.LoadScene(Nextlevel); break; }
+                    string nextLevel = collision.GetComponent<LevelGoal>().Nextlevel;
+                    SceneManager.LoadScene(nextLevel);
+                    break;
+                }
+            case "Coin":
+                {
+                    coinCount++;
+                    Destroy(collision.gameObject);
+                    break;
+                }
 
-
-           
-           
-
-
-
-
+            case "Health":
+                {
+                    Health++;
+                    Destroy(collision.gameObject);
+                    break;
+                    playerUIController.UpdateHealth(Health, maxHealth);
+                }
 
         }
+                
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}

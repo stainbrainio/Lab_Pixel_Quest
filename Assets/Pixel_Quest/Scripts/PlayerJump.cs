@@ -1,63 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class playerJump : MonoBehaviour
+public class PlayerJump : MonoBehaviour
 {
-    Rigidbody2D _rigidbody2D;
-
-    public float Jumpforce = 20f;
-
-    // Capsule
-
+  
     public float CapsuleHeight = 0.25f;
-    public float CapsuleRadius = 0.08f;
-
-    //Ground check
-
-    public Transform feetCollider;
-    public LayerMask groundMask;
-    private bool _groundCheck;
-    private float fallForce = 4;
-    private Vector2 gravityForce;
-    public float jumpForce = 10f;
-
-    // water
-
-    private bool _waterCheck;
-    private string _watertag = "Water";
-   
-        
+public float CapsuleRadius = 0.08f;
+public Transform feetCollider;
+public LayerMask groundMask;
+private bool _groundCheck;
+    private float fallForce = -1;
+    private Vector2 gravityforce;
+    public float jumpforce =10 ;
+    private Rigidbody2D Jump;
     // Start is called before the first frame update
     void Start()
     {
-      _rigidbody2D = GetComponent<Rigidbody2D>();    
+        Jump = GetComponent<Rigidbody2D>();
+        gravityforce = new Vector2 (0f, Physics2D.gravity.y);
+        
+
     }
 
     // Update is called once per frame
     void Update()
-    {    _groundCheck = Physics2D.OverlapCapsule(point:feetCollider.position, size:new Vector2(CapsuleHeight, CapsuleRadius), CapsuleDirection2D.Horizontal, angle:0, groundMask);
-        if (Input.GetKeyDown(KeyCode.Space) && _groundCheck)
+    { 
+        if (Input.GetKeyDown(KeyCode.Space)&& _groundCheck)
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, Jumpforce);
+            Jump.velocity = new Vector2(Jump.velocity.x, jumpforce);
         }
-
-        if (_rigidbody2D.velocity.y < 0)
-        {
-            _rigidbody2D.velocity += gravityForce * (fallForce * Time.deltaTime);
-        }
+       
         
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag(_watertag)) { _waterCheck = true; }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag(_watertag)) { _waterCheck = false; }
+           
+        _groundCheck = Physics2D.OverlapCapsule(feetCollider.position, new Vector2(CapsuleHeight, CapsuleRadius),CapsuleDirection2D.Horizontal,0,groundMask);
     }
 }
-
-
