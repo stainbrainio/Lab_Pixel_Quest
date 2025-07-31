@@ -38,30 +38,10 @@ public class playerStats : MonoBehaviour
                     break;
                 }
 
-
-
-
-
-
-
-           
-
-
-
-
-
             case "Finish":
                 {
                     string Nextlevel = other.GetComponent<LevelGoal>().Nextlevel;
                   SceneManager.LoadScene(Nextlevel); break; }
-
-
-           
-           
-
-
-
-
 
         }
     }
