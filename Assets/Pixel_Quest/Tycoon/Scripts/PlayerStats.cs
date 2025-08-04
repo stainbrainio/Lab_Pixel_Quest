@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class playerStats : MonoBehaviour
 {
-    //public string nextLevel = "GeoLevel_2";
+    public string nextLevel;
     public int money = 0;
     
     

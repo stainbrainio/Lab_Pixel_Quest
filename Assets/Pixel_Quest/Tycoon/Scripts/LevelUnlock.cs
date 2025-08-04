@@ -13,6 +13,6 @@ public class LevelUnlock : MonoBehaviour
         costtext= GetComponentInChildren<TextMeshPro>();
         costtext.text = "$" + cost.ToString();
     }
-    
+     
 
 }
