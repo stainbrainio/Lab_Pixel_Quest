@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,7 @@ public class playerStats : MonoBehaviour
 {
     public string nextLevel;
     public int money = 0;
-    
+    public TextMeshProUGUI moneyui;
     
     public Transform RespawnPoint;
     
@@ -35,6 +36,7 @@ public class playerStats : MonoBehaviour
             case "button":
                 {
                     money += other.GetComponent<MoneyGiver>().Givemoney();
+                    moneyui.text = "$ " + money;
                     break;
                 }
 
