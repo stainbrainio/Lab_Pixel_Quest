@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class playerStats : MonoBehaviour
 {
     public string nextLevel;
-    public int money = 0;
+    public ulong money = 0;
     public TextMeshProUGUI moneyui;
     
     public Transform RespawnPoint;
@@ -19,7 +19,7 @@ public class playerStats : MonoBehaviour
     private void Start()
     {
         _playerUIController = GetComponent<PlayerUIController>();
-       
+        moneyui.text = "$ " + money;
         _playerUIController.StartUI();
         
     }
@@ -61,6 +61,6 @@ public class playerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        moneyui.text = "$ " + money;
     }
 }

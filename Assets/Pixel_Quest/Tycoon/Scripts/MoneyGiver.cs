@@ -4,8 +4,8 @@ using UnityEngine;
 using TMPro;
 public class MoneyGiver : MonoBehaviour
 {
-    public int money;
-    public int amount;
+    public ulong money;
+    public ulong amount;
     public float timer = 5f;
     private float currenttime = 0f;
     public TextMeshPro moneyText;
@@ -21,9 +21,9 @@ public class MoneyGiver : MonoBehaviour
 
     }
 
-    public int Givemoney()
+    public ulong Givemoney()
     {
-        int givemoney = money;
+        ulong givemoney = money;
         money = 0;
         return givemoney;
     }

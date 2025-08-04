@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 public class LevelUnlock : MonoBehaviour
 {
 
-    public int cost;
+    public ulong cost;
     public TextMeshPro costtext;
     private void Start()
     {
