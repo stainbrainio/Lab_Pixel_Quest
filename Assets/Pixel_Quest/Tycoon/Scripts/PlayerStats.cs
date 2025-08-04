@@ -32,9 +32,9 @@ public class playerStats : MonoBehaviour
         {
 
 
-            case "Money":
+            case "button":
                 {
-                    money+=other.GetComponent<MoneyGiver>().Givemoney();
+                    money += other.GetComponent<MoneyGiver>().Givemoney();
                     break;
                 }
 

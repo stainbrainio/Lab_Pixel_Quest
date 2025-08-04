@@ -1,0 +1,831 @@
+fileFormatVersion: 2
+guid: af7967896e724fe4a84ffb1898e55884
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 451
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d1b71f7761bcf4e99af01e384a8e56
+      internalID: -989555489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 450
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a9844abb56b284d92b143a01545ac4
+      internalID: 1673908874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 450
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8da8677651705408af00b1d186c1ec
+      internalID: 1335355827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 451
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c6bb8b2552ee459d30e449d3bca14
+      internalID: -1147391366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 401
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0f910d248964b4a99cac7c98448e4b
+      internalID: 606312557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 400
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab2fc8198e470d4691bdbec48faa356
+      internalID: -1465645602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 400
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f5bd28002579741b0213dfcfbfc48c
+      internalID: -670699925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 401
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5661a97f8551892429842ac27308a471
+      internalID: -1070996228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 351
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8879606b5be3d047b0d90f784f0f1e4
+      internalID: 113036043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 350
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d6032f6525fda4eb893ce1b95bb3cf
+      internalID: -1831253072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 350
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4b083dc82fc546913fd8800d505eb
+      internalID: 205390375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 351
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9551532319dd099409018bf95ca3b454
+      internalID: 2136612033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 301
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14945dc5c7ed5940812226c58021be1
+      internalID: -346791510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5c996fe1c224d4eb38e135ddacfe80
+      internalID: 917344220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 300
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97067440b041ee44b8897902dae4b092
+      internalID: 109868692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 301
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d9c9d8c4864ed4686e7be04aefa3c2
+      internalID: 130055098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 201
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6158600d53d508f4ba9fa7053ed5b2f3
+      internalID: -189415721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc633d67d8913429e3c199f3a64de5
+      internalID: 1961547242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 200
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274089243fea5c34f8308927def6c093
+      internalID: -1010417649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 201
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad42157b4a9423418c930965145f85e
+      internalID: 1233459317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 151
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43aa5f79d63f642a27c174ac58c60b
+      internalID: 514930403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 150
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58474dd2a614d004496b1a3ff485e964
+      internalID: -1430198736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 150
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ccd808398ce8d41a74772fee89419e
+      internalID: -397799457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 151
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0beceebdfbe3524fae78fdf79830146
+      internalID: -1568685491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 101
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081d48e2aebc5da4593a2cce960d5512
+      internalID: 499913314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1033931972fab544c8fdcbf12538683e
+      internalID: -2076314876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 100
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d004c1158e760464f95605b677950523
+      internalID: 1769249245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 101
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcfbc7e0bec83e45b971150e456b709
+      internalID: -781207188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 51
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e4aa080fc7b17408d1ccd1b82c9914
+      internalID: 1853719737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 50
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5e9e13047484a47992385f29b7815d
+      internalID: -1115685115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 50
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679316b11def1ed4b86c1b9cebb98723
+      internalID: -347365386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy__sheet_wlaking_and_Idle_1-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 51
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400af247ed2afff4890101774c9ebdd6
+      internalID: 2029755126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_0: -989555489
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_1: 1673908874
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_10: 205390375
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_11: 2136612033
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_12: -346791510
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_13: 917344220
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_14: 109868692
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_15: 130055098
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_16: -189415721
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_17: 1961547242
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_18: -1010417649
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_19: 1233459317
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_2: 1335355827
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_20: 514930403
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_21: -1430198736
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_22: -397799457
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_23: -1568685491
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_24: 499913314
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_25: -2076314876
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_26: 1769249245
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_27: -781207188
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_28: 1853719737
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_29: -1115685115
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_3: -1147391366
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_30: -347365386
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_31: 2029755126
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_4: 606312557
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_5: -1465645602
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_6: -670699925
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_7: -1070996228
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_8: 113036043
+      Boy__sheet_wlaking_and_Idle_1-removebg-preview_9: -1831253072
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

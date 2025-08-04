@@ -15,13 +15,14 @@ public class PlayerMove : MonoBehaviour
     }
 
     // Update is called once per frame
-
+        
     void Update()
     {
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
         if (xInput > 0) { sr1.flipX = true; }
         else if (xInput < 0) { sr1.flipX= false;}
+
         _rigidbody2D.velocity = new Vector2(xInput * speed, yInput * 5);
     }
 }

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Geo_Quest/Scenes/Scene_2.unity
     guid: 7ec28a2dd8571cc45b9c956a40b95ffa
   - enabled: 1
+    path: Assets/Pixel_Quest/Tycoon/Start.unity
+    guid: 9918c59cd223ef34088bde30f1a4dbba
+  - enabled: 1
     path: Assets/Pixel_Quest/Tycoon/Map1.unity
     guid: 91c6a2575f8c20f4bb776a8074b35fa5
   - enabled: 1
