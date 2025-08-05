@@ -675,20 +675,14 @@ MonoBehaviour:
   money: 0
   moneyui: {fileID: 194979333}
   RespawnPoint: {fileID: 0}
---- !u!114 &25451974 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6657696512839643620, guid: 1a0531d53cc1482468027f8d93d36c32, type: 3}
-  m_PrefabInstance: {fileID: 25451970}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25451971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf1b60ae69d712b48ae7df540642e528, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &25451975 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 620212586924778757, guid: 1a0531d53cc1482468027f8d93d36c32, type: 3}
+  m_PrefabInstance: {fileID: 25451970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &25451976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4469863379189755208, guid: 1a0531d53cc1482468027f8d93d36c32, type: 3}
   m_PrefabInstance: {fileID: 25451970}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &51180245
@@ -835,7 +829,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 25451976}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -1208,7 +1202,6 @@ MonoBehaviour:
   bluecost: 25
   RedCost: 25
   player: {fileID: 25451975}
-  playerMovement: {fileID: 25451974}
   playerStats: {fileID: 25451973}
   blueText: {fileID: 1602485304}
   redText: {fileID: 1602485303}
@@ -22281,6 +22274,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -39
       objectReference: {fileID: 0}
+    - target: {fileID: 6114559418064215409, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_text
+      value: '$25
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 6786484071238329047, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -22292,7 +22291,7 @@ PrefabInstance:
     - target: {fileID: 6786484071238329047, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 104137961}
     - target: {fileID: 6786484071238329047, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -22308,6 +22307,12 @@ PrefabInstance:
     - target: {fileID: 6786484071238329047, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6789570851726712873, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_text
+      value: '$25
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7168566966669123717, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_AnchorMax.x
@@ -22332,6 +22337,34 @@ PrefabInstance:
     - target: {fileID: 7168566966669123717, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -34.295227
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 104137961}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuybPotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelUnlock, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286273654495624994, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7423171852769180714, guid: ffa2ab13c3bcc6342afb0d3f6a7d9e01, type: 3}
       propertyPath: m_VerticalScrollbar
@@ -26383,7 +26416,7 @@ Transform:
   m_GameObject: {fileID: 2066609241}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: -1.31, z: -10}
+  m_LocalPosition: {x: 0.04, y: -1.36, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
