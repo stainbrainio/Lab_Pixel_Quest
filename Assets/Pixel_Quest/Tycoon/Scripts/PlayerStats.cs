@@ -12,15 +12,14 @@ public class playerStats : MonoBehaviour
     
     public Transform RespawnPoint;
     
-    public PlayerUIController _playerUIController;
     
     // Start is called before the first frame update
 
     private void Start()
     {
-        _playerUIController = GetComponent<PlayerUIController>();
+        
         moneyui.text = "$ " + money;
-        _playerUIController.StartUI();
+        
         
     }
 

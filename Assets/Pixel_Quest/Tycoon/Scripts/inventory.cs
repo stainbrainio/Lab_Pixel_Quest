@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shop : MonoBehaviour
+public class inventory : MonoBehaviour
 {
-    public GameObject shopUi;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +13,6 @@ public class shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.B))
-        {
-            shopUi.SetActive(!shopUi.active);
-        }
+        
     }
 }

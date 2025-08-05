@@ -16,7 +16,7 @@ public class MoneyGiver : MonoBehaviour
         {
             currenttime = timer;
             money += amount;
-            UpdateMoneyText();
+            
         }
 
     }
@@ -45,5 +45,6 @@ public class MoneyGiver : MonoBehaviour
     void Update()
     {
         Buttonmoneyincrease();
+        UpdateMoneyText();
     }
 }
